@@ -51,3 +51,9 @@
 #    define CKLED2001_CURRENT_TUNE \
         { 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28 }
 #endif
+
+// configuring tap duration
+#define TAPPING_TERM 150
+#define PERMISSIVE_HOLD
+#define IGNORE_MOD_TAP_INTERRUPT
+
